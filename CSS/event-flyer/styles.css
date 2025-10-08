@@ -1,0 +1,23 @@
+body {
+  padding: 50px;
+  background-color: pink;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  font-family: sans-serif;
+  width: 100vw;
+  min-height: calc(100vh - 100px);
+}
+
+hr {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+h1, h2, p, li {
+  color: rgb(103, 30, 126);
+}
