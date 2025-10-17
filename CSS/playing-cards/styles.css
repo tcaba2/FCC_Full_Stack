@@ -1,0 +1,117 @@
+body {
+  background-color: pink;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(235, 15, 235);
+  font-family: sans-serif;
+}
+
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid black;
+  padding: 125px 70px;
+  margin: auto;
+  box-shadow: 5px 5px 5px rgb(128, 119, 119);
+  font-weight: bold;
+  transition: transform 0.3s, background-color 0.3s ease
+}
+
+.card:hover {
+  background-color: khaki;
+  transform: scale(1.1);
+}
+
+.card:active {
+  background-color: midnightblue;
+}
+
+.card:focus {
+  outline: 2px solid yellow;
+}
+
+.card:visited {
+  color: crimson;
+}
+
+.left {
+  align-self: flex-start;
+  transform: scale(1.5) translate(-300%, -200%);
+  
+}
+
+.middle {
+  align-self: center;
+  display: flex;
+  transform: scale(3)
+}
+
+.right {
+  align-self: flex-end;
+  transform: scale(1.5) translate(300%, 200%) rotate(3.142rad);
+
+}
+
+.red {
+  color: red;
+}
+
+.first:active, .third:active {
+    color: white;
+}
+
+section {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+  transition: transform 0.3s, background-color 0.3s ease
+}
+
+section:hover{
+  background-color: purple;
+  transform: scale(1.1);
+  color: white;
+}
+
+.card-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-links a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: midnightblue;
+  transition: background-color 0.3s ease;
+}
+
+section:target {
+  display: block;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.first-link {
+    color: black;
+}
+
